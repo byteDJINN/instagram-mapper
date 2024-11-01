@@ -1,0 +1,6 @@
+services:
+  main:
+    image: python:3.9
+    build: .
+    volumes:
+      - .:/app
